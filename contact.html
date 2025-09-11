@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">⚡  Web Mistri</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="image.html">Images</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">☰</div>
+  </nav>
+
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <h3>Mobile no: 6287753754</h3>
+    <h3>Email: spriyadarshi831@gmail.com</h3>
+    <div class="social-links">
+      
+      <a href="https://www.linkedin.com/feed/">🌐 LinkedIn</a>
+      <a href="https://github.com/Saurabhpriyadarshi0810">💻 GitHub</a>
+      <a href="https://www.instagram.com/">📷 Instagram</a>
+    </div>
+  </div>
+
+  <footer>© 2025 My Portfolio | All Rights Reserved</footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('show'));
+  </script>
+</body>
+</html>

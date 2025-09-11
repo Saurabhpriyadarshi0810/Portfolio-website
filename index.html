@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Web Mistri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">⚡ Web Mistri</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="image.html">Images</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">☰</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- Add your image here -->
+      <div class="hero-img">
+        <img src="./assets/me.jpg" alt="My Photo">
+      </div>
+
+      <div class="hero-text">
+        <h1>I am Saurabh Priyadarshi</h1>
+        <p>
+          A passionate web developer skilled in HTML, CSS, JavaScript.  
+          I love building responsive websites and currently learning full-stack development 🚀
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>© 2025 My Portfolio | All Rights Reserved</footer>
+
+  <!-- Script for mobile menu -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('show'));
+  </script>
+</body>
+</html>

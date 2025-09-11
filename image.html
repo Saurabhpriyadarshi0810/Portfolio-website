@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">⚡ Web Mistri</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="image.html" class="active">Images</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">☰</div>
+  </nav>
+
+  <section class="gallery">
+    <img src="./assets/1.jpg" alt="Image 1">
+    <img src="./assets/2.jpg" alt="Image 2">
+    <img src="./assets/3.jpg" alt="Image 3">
+    <img src="./assets/4.jpg" alt="Image 4">
+    <img src="./assets/5.jpg" alt="Image 5">
+    <img src="./assets/6.jpg" alt="Image 6">
+  </section>
+
+  <footer>© 2025 My Portfolio | All Rights Reserved</footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('show'));
+  </script>
+</body>
+</html>
